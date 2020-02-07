@@ -1,6 +1,7 @@
-.title{
-    font-family: Gotham Bold,sans-serif;
+#title{
+    font-family: 'Notable', sans-serif;
     letter-spacing: -1px!important;
+    text-transform: capitalize;
 }
 
 form{

@@ -36,4 +36,4 @@ User Story #15: Inside the form element, I am presented with a textarea at the e
 
 User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
 
-Technologies used: HTML, CSS, & Bootstrap
+Technologies used: HTML, CSS, Google Fonts, & Bootstrap
