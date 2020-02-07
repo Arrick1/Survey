@@ -10,10 +10,75 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 </head>
+
 <body>
+    <div class="container-fluid" id="main">
+
+        <div class="row">
+            <h1 class="text-center" id="title">Public Hotel Experience Survey</h1>
+            <h4 class="text-center">We would love to hear from you!</h4>
+        </div>
 
 
-    
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Please enter your guest name</label>
+                <input 
+                    type="text" 
+                    name="name"
+                    id="name" 
+                    placeholder="Name" 
+                    class="form-control"
+                    required/>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input
+                    type="email" 
+                    name="email"
+                    id="exampleFormControlInput1" 
+                    placeholder="name@example.com" 
+                    class="form-control"
+                    required/>
+            </div>
+
+            <div class="form-group">
+                    <label for="age">Age</label>
+                    <input
+                        type="number" 
+                        name="age"
+                        id="age" 
+                        placeholder="Optional" 
+                        class="form-control"/>
+                </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                  </select>
+            </div>
+           
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Additional feedback</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </form>
+
+        <!-- <div class="row justify-content-md-center">
+            <div class="col col-lg-2">1 of 3</div>
+            <div class="col-md-auto">Variable width content</div>
+            <div class="col col-lg-2">3 of 3</div>
+        </div> -->
+
+
+
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 

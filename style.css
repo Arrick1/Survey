@@ -1,0 +1,11 @@
+.title{
+    font-family: Gotham Bold,sans-serif;
+    letter-spacing: -1px!important;
+}
+
+form{
+    width: 65%;
+    position: absolute;
+    left: 21%;
+    margin-left: -50px;
+}
